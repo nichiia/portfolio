@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portfolio of Nurul Farhana Nisyyah Foudzay, a multimedia technology graduate, web designer and content creator."
+    >
+
+    <title>Nurul Farhana | Digital Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container navigation">
+
+            <a href="index.html" class="logo" aria-label="Homepage">
+                <span>NF</span>
+                Nurul Farhana
+            </a>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="work.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="contact-link">Let's connect</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+                    <p class="eyebrow">
+                        Multimedia technologist · Labuan, Malaysia
+                    </p>
+
+                    <h1>
+                        I create digital experiences through
+                        <em>design, development</em>
+                        and visual storytelling.
+                    </h1>
+                </div>
+
+                <div class="hero-introduction reveal">
+                    <p>
+                        I'm Nurul Farhana, a multimedia technology graduate,
+                        web designer and content creator. I enjoy combining
+                        technology and visual storytelling to create work that
+                        is purposeful, functional and engaging.
+                    </p>
+
+                    <a href="#selected-work" class="text-link">
+                        Explore selected work
+                        <span aria-hidden="true">↘</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CREATIVE DISCIPLINES -->
+
+        <section class="discipline-strip" aria-label="Creative disciplines">
+            <div class="discipline-track">
+                <span>UI/UX Design</span>
+                <span>Web Development</span>
+                <span>Photography & Videography</span>
+                <span>Content Creation</span>
+                <span>Branding</span>
+                <span>Gaming & Livestreaming</span>
+            </div>
+        </section>
+
+        <!-- SELECTED WORK -->
+
+        <section class="work-section" id="selected-work">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">Portfolio</p>
+                        <h2>Selected work</h2>
+                    </div>
+
+                    <p>
+                        A selection of projects connecting technology,
+                        design and digital content production.
+                    </p>
+                </div>
+
+                <!-- PROJECT FILTERS -->
+
+                <div class="filter-buttons reveal">
+                    <button class="filter-button active" data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-button" data-filter="uiux">
+                        UI/UX
+                    </button>
+
+                    <button class="filter-button" data-filter="content">
+                        Content
+                    </button>
+
+                    <button class="filter-button" data-filter="web">
+                        Web
+                    </button>
+
+                    <button class="filter-button" data-filter="branding">
+                        Branding
+                    </button>
+                </div>
+
+                <!-- PROJECT GRID -->
+
+                <div class="project-grid">
+
+                    <!-- MISO -->
+
+                    <article
+                        class="project-card project-large reveal"
+                        data-category="uiux"
+                    >
+                        <a href="projects/miso.html">
+
+                            <div class="project-image miso-image">
+                                <span class="project-number">
+                                    01 / Featured
+                                </span>
+
+                                <div class="project-image-title">
+                                    MISO
+
+                                    <small>
+                                        Mood Insights & Spending Overview
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="project-details">
+                                <div>
+                                    <h3>MISO Financial Tracker</h3>
+
+                                    <p>
+                                        Mobile application and UX case study
+                                    </p>
+                                </div>
+
+                                <span>
+                                    Kotlin · Android Studio · Supabase
+                                </span>
+                            </div>
+
+                        </a>
+                    </article>
+
+                    <!-- FRAMEHOUSE -->
+
+                    <article
+                        class="project-card reveal"
+                        data-category="content"
+                    >
+                        <a href="projects/framehouse.html">
+
+                            <div class="project-image framehouse-image">
+                                <span class="project-number">02</span>
+
+                                <div class="project-image-title">
+                                    FrameHouse
+
+                                    <small>
+                                        Stories behind the frame
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="project-details">
+                                <div>
+                                    <h3>FrameHouse Studio</h3>
+
+                                    <p>
+                                        Photography, video and short-form
+                                        content
+                                    </p>
+                                </div>
+
+                                <span>Content production</span>
+                            </div>
+
+                        </a>
+                    </article>
+
+                    <!-- DIGITAL INVITATION -->
+
+                    <article
+                        class="project-card reveal"
+                        data-category="web branding"
+                    >
+                        <a href="projects/digital-invitation.html">
+
+                            <div class="project-image invitation-image">
+                                <span class="project-number">03</span>
+
+                                <div class="project-image-title dark-text">
+                                    Digital Invitation
+
+                                    <small>
+                                        A personal wedding experience
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="project-details">
+                                <div>
+                                    <h3>Wedding Invitation Website</h3>
+
+                                    <p>
+                                        Responsive web and visual design
+                                    </p>
+                                </div>
+
+                                <span>
+                                    HTML · CSS · JavaScript
+                                </span>
+                            </div>
+
+                        </a>
+                    </article>
+
+                    <!-- GAMING CONTENT -->
+
+                    <article
+                        class="project-card project-large reveal"
+                        data-category="content"
+                    >
+                        <a href="projects/wedding-content.html">
+
+                            <div class="project-image gaming-image">
+                                <span class="project-number">04</span>
+
+                                <div class="project-image-title">
+                                    Digital Stories
+
+                                    <small>
+                                        Live moments and online communities
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="project-details">
+                                <div>
+                                    <h3>
+                                        Gaming Content & Livestreaming
+                                    </h3>
+
+                                    <p>
+                                        Creative direction and community
+                                        content
+                                    </p>
+                                </div>
+
+                                <span>Streaming · Editing</span>
+                            </div>
+
+                        </a>
+                    </article>
+
+                </div>
+
+                <div class="view-all-wrapper reveal">
+                    <a href="work.html" class="primary-button">
+                        View all projects
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+
+        <section class="experience-section">
+            <div class="container experience-grid">
+
+                <div class="experience-introduction reveal">
+                    <p class="eyebrow">Experience spotlight</p>
+
+                    <h2>FrameHouse Studio</h2>
+
+                    <p>
+                        Practical experience creating visual content in a
+                        collaborative and client-facing environment.
+                    </p>
+                </div>
+
+                <div class="experience-list">
+
+                    <article class="experience-item reveal">
+                        <h3>Content production</h3>
+
+                        <p>
+                            Captured behind-the-scenes moments, meetings and
+                            events, then transformed the footage into
+                            short-form digital content.
+                        </p>
+                    </article>
+
+                    <article class="experience-item reveal">
+                        <h3>Creative contribution</h3>
+
+                        <p>
+                            Supported photography, videography and editing
+                            while maintaining consistent visual communication
+                            across different projects.
+                        </p>
+                    </article>
+
+                    <article class="experience-item reveal">
+                        <h3>Professional coverage</h3>
+
+                        <p>
+                            Documented professional sessions such as the Asian
+                            Supply Base meeting while balancing authentic
+                            moments with polished storytelling.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT PREVIEW -->
+
+        <section class="about-preview">
+            <div class="container about-preview-grid">
+
+                <p class="eyebrow reveal">
+                    A little about me
+                </p>
+
+                <div class="reveal">
+                    <p class="large-paragraph">
+                        I enjoy working where creative ideas and digital
+                        technology meet. My work covers mobile applications,
+                        websites, visual design, photography, video and
+                        online content.
+                    </p>
+
+                    <a href="about.html" class="text-link">
+                        More about me
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+
+        <section class="contact-section">
+            <div class="container contact-grid">
+
+                <div class="reveal">
+                    <p class="eyebrow">
+                        Have a project in mind?
+                    </p>
+
+                    <h2>
+                        Let's create something
+                        <em>meaningful.</em>
+                    </h2>
+                </div>
+
+                <a href="contact.html" class="circle-button reveal">
+                    Let's talk
+                    <span aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+
+            <div>
+                <strong>
+                    Nurul Farhana Nisyyah Foudzay
+                </strong>
+
+                <p>
+                    Multimedia Technology · Labuan, Malaysia
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="current-year"></span> Nurul Farhana
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
